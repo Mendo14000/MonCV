@@ -1,0 +1,48 @@
+body{
+    display: grid;
+    border-right: 2px solid black;
+    width: 1160px;
+    margin: 100px auto;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #782221;
+}
+
+.Poste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact{
+    width: 1160px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+}
+
+.Colone-gauche{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
+    background-color: #782221;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: #782221;
+    color: white;
+}
