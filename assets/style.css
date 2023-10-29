@@ -1,6 +1,6 @@
 figure{
     width: 150px;
-    height: 150px; 
+    height: 150px;
 }
 
 .Icone{
@@ -19,10 +19,12 @@ figure{
 
 .text__blanc{
     color: white;
+    text-decoration: none;
 }
 
 .Titre__1{
     background-color: #dbc2a4;
+    text-indent: 20px;
 }
 
 .Titre__2{
@@ -34,8 +36,16 @@ figure{
     border-right: 3px solid #782221;
 }
 
-.reseau{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+address a:hover{
+    text-decoration: underline;
+}
+
+footer div a:hover{
+    opacity: 0.8;
+}
+
+.text__1{
+    color: white;
+    padding-left: 20px;
+    text-indent: 30px;
 }
