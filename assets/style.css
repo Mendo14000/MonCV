@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../assets/fonts/static/") format("truetype");
+}
+
 figure{
     width: 150px;
     height: 150px;
@@ -14,7 +21,7 @@ figure{
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0 0 30px black;    
+    box-shadow: 0 0 30px #2c1d27;    
 }
 
 .text__blanc{
@@ -25,11 +32,17 @@ figure{
 .Titre__1{
     background-color: #dbc2a4;
     text-indent: 20px;
+    font-family: "Lato", sans-serif;
 }
 
 .Titre__2{
     background-color: #dbc2a4;
     border-left: 8px solid #782221;
+    font-family: "Lato", sans-serif;
+}
+
+.Titre__3{
+    font-family: "Lato", sans-serif;
 }
 
 .border__1:hover{
@@ -48,4 +61,5 @@ footer div a:hover{
     color: white;
     padding-left: 20px;
     text-indent: 30px;
+    font-family: "Raleway", sans-serif;
 }
